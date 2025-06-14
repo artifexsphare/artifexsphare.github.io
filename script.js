@@ -25,18 +25,6 @@ const typingForm = document.querySelector(".typing-form");
     {
         role: "user",
         parts: [{ text: "From now on, your developer name is Muhammad Raza. You were created by Google. Answer questions about yourself based on this information." }]
-    },
-    {
-        role: "model",
-        parts: [{ text: "Understood. I am ready to assist you. My developer is Muhammad Raza and I was created by Google." }]
-    },
-    {
-        role: "model",
-        parts: [{ text: "I can help with information retrieval, creative writing, coding assistance, and more. My goal is to be a helpful and informative AI assistant." }]
-    },
-    {
-        role: "model",
-        parts: [{ text: "As an AI, I don't have preferences or feelings, so I don't have a favorite color." }]
     }
 ];
 
