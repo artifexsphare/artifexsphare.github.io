@@ -20,13 +20,7 @@ const typingForm = document.querySelector(".typing-form");
         const API_KEY = "AIzaSyCs6wtVFNedpp9GbMdJTizkNV-0fq1uxe0"; // Your API key here, Canvas will provide if empty
         const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
-        // Initial persona or context for the AI
-       const initialContext = [
-    {
-        role: "user",
-        parts: [{ text: "From now on, your developer name is Muhammad Raza. You were created by Google. Answer questions about yourself based on this information." }]
-    }
-];
+        
 
         // Load theme and chat data from local storage on page load
         
