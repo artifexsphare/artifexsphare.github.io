@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        /* Reset default body margin */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+        }
+
+        /* Make iframe container responsive */
+        .chatbot-container {
+            position: relative;
+            width: 100%;
+            min-height: 700px; /* Default height for desktop */
+        }
+
+        .chatbot-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Mobile view adjustment */
+        @media screen and (max-width: 768px) {
+            .chatbot-container {
+                min-height: 100vh; /* Full screen height for mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chatbot-container">
+        <iframe
+            src="https://love.tsonit.com/areeba"
+            allow="microphone"
+        ></iframe>
+    </div>
+
+</body>
+</html>
