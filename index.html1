@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbase Bot</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+        }
+
+        .chatbot-container {
+            position: relative;
+            width: 100%;
+            height: 100%; /* Full visible height */
+        }
+
+        .chatbot-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chatbot-container">
+        <iframe
+            src="https://www.chatbase.co/chatbot-iframe/eSbzYkQtSBpVekGQjyNXu"
+            allow="microphone"
+        ></iframe>
+    </div>
+
+</body>
+</html>
