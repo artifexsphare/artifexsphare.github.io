@@ -1,0 +1,18 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    window.onload = function() {
+      // Try Chrome custom protocol
+      window.location.href = "googlechrome://navigate?url=https://artifexsphare.github.io/";
+      // Fallback after 500ms to normal link
+      setTimeout(function() {
+        window.location.href = "https://artifexsphare.github.io/";
+      }, 500);
+    }
+  </script>
+</head>
+<body>
+  <p>Opening in Chrome...</p>
+</body>
+</html>
